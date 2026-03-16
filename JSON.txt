@@ -1,0 +1,39 @@
+JSON Array Structure:
+{"mons_id":["1",["2"],"3","4","5","6","7"]}
+
+1: Name
+2: Skillset (ARRAY)
+3: Attack
+4: Defense
+5: Aiming
+6: Type
+--> Types are divided by:
+	1: Dark
+	2: Diamond/Fairy
+	3: Nature
+	4: Electric
+	5: Fire
+	6: Gold
+	7: Spirit
+	8: Water
+7: HP
+
+Attack Database JSON -> located in: Opp_thingy
+ex: {"88":["120","180","0"],"103":["120","130","1"]}
+
+88: attack_id
+120: min_damage
+180: max_damage
+0/1 or others: extra attribute
+-->
+	0: No additional effect
+	1: Minus defense to target
+	2: More damage when HP is 50% or below
+	3: Adds attack
+	4: 25% chance of poison
+	5: 25% chance of poison AND Minus aiming/accuracy
+	6: Heals
+	7: Adds Attack to user and Heals user
+
+Player_status and Opp_Status variable
+1: Sick/Poison
