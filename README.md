@@ -1,4 +1,4 @@
-[!NOTE]
+[!IMPORTANT]
 > NOTICE: Dynamons World Battle Simulator is a non-profit, fan-made RPG created for entertainment purposes only. This project is not affiliated
 > with, endorsed by, or sponsored by Azerion Casual.
 > All characters, locations, and music are trademarks of Azerion Casual. Please support the official release of the
